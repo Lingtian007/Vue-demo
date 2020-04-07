@@ -69,6 +69,6 @@ Vue.prototype.$toast = $Toast
 Vue.prototype.$dialog = $Dialog
 ```
  
-## 贡献代码
+
 
 
