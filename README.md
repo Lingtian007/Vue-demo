@@ -16,7 +16,7 @@ verdaccio
 输入http://localhost:4873，就可以看到页面
 ![image](https://github.com/Lingtian007/Vue-demo/assets/48399168/78d77005-c830-4608-aa16-0c982913c92b)
 
-+注意:
++ 注意:
 
 >Verdaccio默认是localhost，要使用ip给其它电脑访问，可在config.yaml 文件中添加一行 listen: 0.0.0.0:4873 ，在Verdaccio启动的第一行有config.yaml的地址，编辑文件在最后一行加入listen: 0.0.0.0:4873
 
