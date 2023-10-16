@@ -4,6 +4,32 @@
 
 > It's a A personal Vue UI component library .
 
+## 准备工作
+安装npm私有仓库框架verdaccio
+```js
+npm install --global verdaccio@6-next --registry https://registry.verdaccio.org/
+```
+安装完成后直接运行命令
+```js
+verdaccio
+```
+输入http://localhost:4873，就可以看到页面
+![image](https://github.com/Lingtian007/Vue-demo/assets/48399168/78d77005-c830-4608-aa16-0c982913c92b)
+
++注意:
+
+>Verdaccio默认是localhost，要使用ip给其它电脑访问，可在config.yaml 文件中添加一行 listen: 0.0.0.0:4873 ，在Verdaccio启动的第一行有config.yaml的地址，编辑文件在最后一行加入listen: 0.0.0.0:4873
+
+>其他教程说是启动时可以查看界面的warn警告可以看到config配置文件的地址
+但作者启动时没有找到warn ，所以直接用everything搜索 config.yaml
+作者的配置文件的地址为
+C:\Users\Administrator\AppData\Roaming\verdaccio\config.yaml。
+
+然后重启服务就可以生效
+如果嫌麻烦可以直接重启电脑
+
+这样可以在其他电脑上设置仓库地址 npm set registry http://ip:4873/
+
 ## 安装
 
 ### npm 安装
